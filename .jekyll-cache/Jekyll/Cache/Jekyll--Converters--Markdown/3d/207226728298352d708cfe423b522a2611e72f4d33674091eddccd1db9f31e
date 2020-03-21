@@ -1,0 +1,24 @@
+I"�<h2 id="前言">前言</h2>
+
+<p>作者最近在尝试把Ubuntu系统装在移动硬盘中。系统安装成功了，但是500G的硬盘装一个Ubuntu总是有些浪费。在网上也没有找到相关的教程，于是自己捣鼓做了一下。</p>
+
+<h2 id="第一步-压缩卷">第一步: 压缩卷</h2>
+
+<h2 id="第二步转换格式">第二步：转换格式</h2>
+
+<h2 id="第三步测试">第三步：测试</h2>
+
+<p>在Windows中，Share盘会在<code class="highlighter-rouge">此电脑</code>下显示。</p>
+
+<p>在Ubuntu中，Share盘会在菜单栏和文件管理器中显示，可以自由访问。</p>
+
+<p>另外，在Ubuntu系统中会显示一些Win10下看不见的文件。</p>
+
+<p><img src="../img/post-body-folder.png" alt="" /></p>
+
+<p>估计这些文件<strong>对windows中的分盘会有影响</strong>，作者没有删除进行测试，也没有找到什么隐藏的方法。如果有知道的朋友欢迎在评论区留言。</p>
+
+<h2 id="结语">结语</h2>
+
+<p>本文其实就是做了一个把EXT4文件系统转为了xxx文件系统的工作，非常的简单。Ubuntu其实是可以自由访问Windows下的文件的，但是Windows就需要借助一些像<code class="highlighter-rouge">DiskInternals Linux Reader</code>，<code class="highlighter-rouge">Ext2Read</code>之类的软件。为了追求方便，当然是直接转为windows能直接浏览的xxx文件系统会更好啦！</p>
+:ET

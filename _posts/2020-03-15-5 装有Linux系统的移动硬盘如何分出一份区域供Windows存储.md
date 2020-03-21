@@ -26,11 +26,11 @@ tags:
 
 插入移动硬盘，可以发现你的移动硬盘有若干个分区。
 
-![](../img/post/post-2020-3-21/post-body-disk.png)
+![](/img/post/post-2020-3-21/post-body-disk.png)
 
 可以选中你觉得太大的分区，右键压缩,弹出如下窗口。
 
-![](../img/post/post-2020-3-21/post-body-space.png)
+![](/img/post/post-2020-3-21/post-body-space.png)
 
 输入你想要压缩的量（就是你想要拿来作为存储空间的量），点击压缩。压缩后，盘中会新增一部分未分配空间/可用空间，那就是我们要用来存储的空间
 
@@ -39,11 +39,11 @@ tags:
 
 右键未分配空间/可用空间，点击新建简单卷。输入你想要的存储空间大小，驱动器号按照默认即可（第二个和第三个都不能被识别为可存储介质）。
 
-![](../img/post/post-2020-3-21/post-body-select.png)
+![](/img/post/post-2020-3-21/post-body-select.png)
 
 在下一步中，文件系统使用NTFS，分配单元大小为默认值，卷标为你想要命名的名字（之后可以重命名，所以不同担心）。
 
-![](../img/post/post-2020-3-21/post-body-format.png)
+![](/img/post/post-2020-3-21/post-body-format.png)
 
 下一步后检查一下自己的配置，无误后点击完成即可。
 
@@ -55,7 +55,7 @@ tags:
 
 另外，在Ubuntu系统中会显示一些Win10下看不见的文件。
 
-![](../img/post/post-2020-3-21/post-body-folder.png)
+![](/img/post/post-2020-3-21/post-body-folder.png)
 
 估计这些文件**对windows中的分盘会有影响**，作者没有删除进行测试，也没有找到什么隐藏的方法。如果有知道的朋友欢迎在评论区留言。
 
